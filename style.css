@@ -1,0 +1,674 @@
+
+#nav{
+    background-color:rgb(255, 255, 255) ;
+    padding: 30px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row; 
+    justify-content:center;
+    position: sticky;
+    top:0;
+    z-index: 1;
+
+}
+
+
+a{
+    color: rgb(9, 9, 9);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container1{
+    /* background-image: linear-gradient(to right, red , yellow); */
+    background-color: #EBEDEE;  
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    flex-wrap:wrap; 
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    
+}
+
+.div1{
+  
+    display: inline-block;
+    /* width:60%; */
+    /* padding-left:100px ; */
+    
+}
+
+@font-face{
+    font-family: myfont;
+    src:url(R&C-Demo.otf)
+}
+.title{
+    font-family: myfont;
+    font-size: 118px;
+    margin-bottom: 10px;
+    color: #58481b;
+}
+
+#p1{
+    font-family:"Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+
+/* the reason for not putting padding in P1 is that it comes within div1 and is nested so the prop of div one is getting applied here */
+
+.div2{
+    display: inline-block;
+   
+
+}
+#owl{
+    display:inline;
+    margin-bottom: 50px;
+}
+
+
+
+#introduction{
+    height: 1100px;
+    background-color:#fef9eedc; 
+    padding-bottom: 30px;
+    
+}
+.sec1{
+    display:flex;
+    flex-direction:row;
+    padding: 100px;
+    padding-bottom: 80px;
+    height: auto;
+    background-color:#fef9eedc; 
+
+}
+
+
+.taxintro{
+    width: 30%;
+    display: inline-block;
+}
+
+#taxidermy{
+    font-size: 25px;
+    padding-left: 45px;
+    padding-top: 100px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.rec1{
+    display:inline-block;
+    width:70px;
+    height:40px;
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin-left: 13px;
+}
+
+.rec2{
+    display:inline-block;
+    width:113px;
+    height:60px;
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin-left: 16px;
+}
+
+.explanation{
+    display: flex;
+    flex-direction: column;
+}
+
+.deftext{
+   display: inline-block;
+}
+
+.diagram{
+    display: flex;
+    flex-direction: row;
+}
+
+#paratext{
+    margin: 0px;
+    display: inline-flex;
+}
+
+#tomove{
+    padding-left: 9px;
+}
+
+#skin{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+i{
+    font-size: 20px;
+}
+.desc{
+    width: 70%;
+    display: inline-block;
+}
+#h1{
+    color: #947a31;
+    padding-left: 10px;
+}
+#intro-p{
+    font-size: 23px;
+    font-family: "Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+    padding-top: 15px;
+    padding-right: 100px;
+    padding-left: 10px;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: auto;
+    justify-content:left;
+    padding-left: 150px;
+    
+}
+
+.box{
+    border: 2px solid #947a31;
+    width: 84%;
+    padding: 25px;
+    display: flex;
+    
+}
+
+.lefttext{
+    width: 70%;
+}
+.diduk{
+    padding-left: 40px;
+    font-size: 40px;
+    padding-bottom: 20px;
+   margin-top: 10px;
+}
+ul{
+    font-size: 18.5px;
+    font-family: "Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+}
+
+.rightimg{
+    width: 20%;
+    padding-left: 20px;
+}
+
+
+
+#mus1{
+border-radius: 50%; /* Makes the image circular */
+  width: 350px; /* Set the width of the circular image */
+  height: 350px; /* Set the height of the circular image */
+  object-fit: cover; /* Maintain the aspect ratio and crop if necessary */
+  
+}
+
+#about{
+    height: auto;
+    background-color:#fef9eedc;
+    padding-bottom: 90px;
+
+}
+.sec2-1{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    padding-top: 0px;
+    background-color: #d9ad787a;
+    width: 1140px;
+    height: 15px;
+    margin-left: 310px;
+
+}
+.learn{
+    position:relative;
+    left:-57%;
+    top: -307%;
+    font-size: 65px;
+    font-family:"Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+    font-weight: 700;
+    color: #947a31;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.sec2-2{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+
+}
+#scrollp{
+    margin-top: -10px;
+    font-size: 16.5px;
+    font-family: "Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+}
+/* .scrolltext{
+    text-align: center;
+} why is this not working ?*/
+
+.sec2-3{
+    justify-content: center;
+    display: flex;
+    height: auto;
+}
+.areapic-l{
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+
+}
+.pimg-l{
+    display: block;
+    max-width: 600px;
+    height: auto;
+    margin-left: 220px;
+    border-radius: 0 0 30% 0;
+}
+
+.circle-l {
+    position: absolute;
+    top:-10%; /* Adjust the top position to center vertically */
+    left: 23%; /* Adjust the left position to center horizontally */
+    width: 100px; /* Set the circle's width and height as needed */
+    height: 100px;
+    background-color: rgb(255, 255, 255); /* Circle color with transparency */
+    border-radius: 50%; /* Create a circular shape */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .circle-text-l {
+    text-align: center; /* Center the text horizontally within the circle */
+    font-size: 30px;
+    margin: 0; /* Remove default margin for the text */
+    padding: 10px; /* Add some padding for spacing */
+  }
+
+.areatext-r{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-family:"Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif ;
+
+}
+.pararight{
+   margin-left: -100px;
+    padding-top: 100px;
+    font-size: 19px;
+}
+
+.sec2-4{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin-top: 10px;
+}
+
+.boxtext-l{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: "Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+
+}
+
+.paraleft{
+    font-size: 19px;
+    padding-top: 140px;
+    margin-left: 225px;
+    margin-right: 50px;
+}
+
+
+.boxpic-r{
+    width: 50%;
+    position: relative;
+    display: inline-block; 
+    /* z-index: 0;  */
+}
+.pimg-r{
+    display: block;
+    max-width: 600px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 30% 0 0 0;
+
+}
+.circle-r{
+    position:absolute;
+    top:-10%; 
+    right: 20%; 
+    width: 100px; 
+    height: 100px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 50%; 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.circle-text-r{
+    text-align: center; 
+    font-size: 30px;
+    margin: 0; 
+    padding: 10px; 
+}
+
+.sec2-5{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin-top:10px;
+}
+
+#iround3{
+    border-radius: 0 30% 0 0;
+}
+.sec2-6{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin-top: 10px;
+ 
+}
+.sec2-7{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin-top: 10px;
+}
+.sec2-8{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin-top: 10px;
+}
+
+.sec2-9{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin-top: 10px;
+}
+
+.sec2-10{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin-top: 10px;
+}
+
+#gallery{
+    height:auto;
+    background-color: #fef9eedc;
+    padding-bottom: 100px;
+}
+.sec3-1{
+    justify-content: left;
+    display: flex;
+    height: auto;
+    padding-top: 0px;
+    background-color: #d9ad787a;
+    width: 900px;
+    height: 15px;
+    margin-left: 210px;
+}
+
+.mediahub{
+    position:relative;
+    right: -101%;
+    top: -290%;
+    font-size: 65px;
+    font-family:"Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+    font-weight: 700;
+    color: #947a31;
+    margin: 0px;
+    padding: 0px;
+}
+.sec3-2{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+#belowp{
+    margin-top: -10px;
+    font-size: 16.5px;
+    font-family: "Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+}
+
+.sec3-3{
+    justify-content: center;
+    display: flex;
+    height: auto;
+}
+.left{
+    width: 50%;
+
+}
+
+.frame1{
+    position: relative;
+    left: 40%;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.rectangle{
+    width: 360px;
+    height: 550px;
+    border:2px solid #58481b;
+    position: relative;
+    left: 0%;
+}
+#blogimg{
+
+  max-width: 900px; 
+  max-height: 440px; 
+  width: auto; 
+  height: auto;
+  display: block;
+  margin-left: 30px;
+  margin-top: 5px;
+  
+}
+
+#blog1p{
+    padding-left: 37px;
+    font-size: 15px;
+}
+
+.text-rectangle {
+    position: absolute;
+    top: 290px;
+    /* left: 0%; */
+    width: 363px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5); /* Text rectangle background color with transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recp{
+    color: white; /* Text color */
+  text-align: center;
+  margin: 0; /* Remove default margin for the text */
+  padding: 10px;
+  }
+.right{
+    width: 50%;
+}
+
+#rightf{
+    margin-left: -280px;
+}
+.sec3-4{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+#blog2p{
+    margin-top: -10px;
+    font-size: 16.5px;
+    font-family: "Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+
+}
+.sec3-5{
+    justify-content: center;
+    display: flex;
+    height: 500px;
+}
+#vid{
+    max-width: 100%;
+    height: auto;
+    width: 60%;
+    
+}
+
+#contacts{
+    height:auto;
+    background-color: #fef9eedc; 
+    padding-bottom: 150px;
+}
+.sec4-1{
+    justify-content: center;
+    display: flex;
+    height: auto;
+    padding-top: 0px;
+    background-color: #d9ad787a;
+    width: 1010px;
+    height: 15px;
+    margin-left: 450px;
+
+}
+
+#art{
+    position:relative;
+    left:-62%;
+    top: -307%;
+    font-size: 65px;
+    font-family:"Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+    font-weight: 700;
+    color: #947a31;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sec4-2{
+    display: flex;
+    justify-content: left;
+    
+}
+#belo{
+    padding: 20px;
+    padding-left: 230px;
+    font-size: 18px;
+    padding-top: 10px;
+    font-family:"Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+
+}
+.sec4-3{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.circle-container {
+    display: flex;
+    align-items: center;
+    margin-left: -60px;
+  }
+  
+  .circular-image {
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+  
+  .text {
+    margin-left: 100px; /* Add spacing between the circular image and text */
+    font-size: 18.5px;
+  }
+
+  .sec4-4{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .circle-container1{
+    display: flex;
+    
+    align-items: center;
+    margin-left: -60px;
+    
+  }
+  .text1{
+    margin-left: 10px; /* Add spacing between the circular image and text */
+    margin-right: 100px;
+    font-size: 18.5px;
+  }
+
+  .circular-image1{
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%; 
+    object-fit: cover; 
+
+  }
+.sec4-5{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+#fotter{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    background-color: #EBEDEE;
+}
+.endtext{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 25px;
+    font-family:"Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+}
