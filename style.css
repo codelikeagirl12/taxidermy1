@@ -625,6 +625,7 @@ border-radius: 50%; /* Makes the image circular */
   .text {
     margin-left: 100px; /* Add spacing between the circular image and text */
     font-size: 18.5px;
+      font-family:"Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
   }
 
   .sec4-4{
@@ -644,6 +645,7 @@ border-radius: 50%; /* Makes the image circular */
     margin-left: 10px; /* Add spacing between the circular image and text */
     margin-right: 100px;
     font-size: 18.5px;
+      font-family:"Crimson Text",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
   }
 
   .circular-image1{
